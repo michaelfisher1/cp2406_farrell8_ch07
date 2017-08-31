@@ -18,7 +18,7 @@ public class FixDebugSeven2
       System.out.print("Enter a series of integers separated by spaces >> ");
       str = in.nextLine();
       length = str.length();
-      for(x = 0; x <= length; ++x)
+      for(x = 0; x < length; ++x)
       {
          if(str.charAt(x) == ' ')
          {
